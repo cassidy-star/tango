@@ -1,0 +1,98 @@
+.div1{
+    background-color: black;
+    padding:1.5em;
+
+}
+.sticky-top{
+    top:40px; 
+    height:6.5em;
+    background-color: white;
+
+}
+
+#navitem{
+    justify-content:center;
+}
+li{
+    
+    place-items: right;
+}
+ul{
+    margin-left: 8%;
+    justify-content: right;
+}
+#navbarTogglerDemo02{
+    place-items: center;
+}
+
+
+
+
+
+
+
+.parallax {
+    /* The image used */
+    /* background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.829)); */
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.829)), url("image1.jpg");
+    position:flex;
+  
+    /* Set a specific height */
+    min-height: 650px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* css for my  our features page
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.box{
+    flex: 1 1 150px;
+    flex: 0 1 150px;
+    margin: 5px;
+    height:90px;
+    width:190px;
+    background: green;
+   
+} */
