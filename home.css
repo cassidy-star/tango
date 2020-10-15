@@ -1,23 +1,40 @@
+body{
+	font-family: "montserrat", sans-serif;
+}
+h2{
+	font-size: 25px;
+}
+p {
+	font-size: 18px;
+}
+.landing
+{
+	background-color: black;
+}
 .div1{
     background-color: black;
     padding:1.5em;
-
+}
+#phoneicon{
+	background-color: white;
+	width:30px
 }
 .sticky-top{
     top:40px; 
     height:6.5em;
     background-color: white;
-
 }
 
 #navitem{
     justify-content:center;
 }
-li{
+li
+{
     
     place-items: right;
 }
-ul{
+ul
+{
     margin-left: 8%;
     justify-content: right;
 }
@@ -30,21 +47,161 @@ ul{
 
 
 
-
-.parallax {
-    /* The image used */
-    /* background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.829)); */
+/* Create the parallax scrolling effect */
+.parallax 
+{
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.829)), url("image1.jpg");
     position:flex;
-  
-    /* Set a specific height */
+    color: white;
     min-height: 650px; 
-  
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+	background-size: cover;
+	font-family: "montserrat", sans-serif;
+}
+.phone
+{
+	z-index:3;
+    float:right;
+	position: relative;
+	top: -12em;
+
+	
+
+}
+#learnbtn
+{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #18ba60;
+    font-size: 18px;
+    padding: 20px;
+}
+#form1
+{
+	position: absolute;
+	float: right;
+	margin-left: 65%;
+	margin-top: 12%;;
+}
+input{
+	background: transparent;
+	
+}
+textarea{
+	background:transparent;
+}
+#sendbtn{
+	background-color:#18ba60 ;
+}
+.headings{
+	padding:6em;
+	
+}
+.firstheading{
+	color:#18ba60;
+}
+
+
+
+/* this is the css for the Our Features page */
+
+#featuresContainer{
+	text-align: center;
+	padding:50px;
+	background-color:white;
+
+}
+.featuresheading{
+	text-align: center;
+	place-items:center;
+}
+.feature-paragraph{
+	line-height: 0%;
+}
+.carousel {
+	height: 20vh;
+	background-color: white;
+}
+.features
+{
+	margin-top: 10%;
+	text-align: center;
+	height: 100vh;
+	background-color:whitesmoke;
+
+}
+
+/* this is my we do page below */
+
+.what-we-do{
+	text-align: center;
+	margin-top: 10%;
+	height:100vh;
+}
+.we-do-paragraph{
+	line-height: 50%;
+}
+.we-do-h5{
+	font-size: 12px;
+}
+
+#wedo-container{
+	width: 75%;
+
+}
+
+.modern-dev{
+	z-index:1;
+	height:15rem;
+	padding: 40px;
+	background-color: whitesmoke;
+}
+.wedo-icon{
+	position: absolute;
+	float:left;
+	height:80px;
+	width:60px;
+}
+
+.ourwork{
+	text-align: center;
+	padding:50px;
+	background-color:white;
+	margin-top: 298px;
+	height:100vh;
+}
+
+.line-mf {
+	width: 40px;
+	height: 5px;
+	background-color: #18ba60;
+	margin: 0 auto;
+  }
+
+.video{
+	height:60vh;
+	background-image: url("./images/video.jpg");
+	background-size: cover;
+	background-position: center;
+	margin-top: 20px;
+}
+.team-heading{
+	text-align: center;
+}
+.team-paragraph{
+	text-align: center;
+	line-height:15px;
+}
+.grayscale {
+	filter: url("./images/team1.png"); /* Firefox 3.5+ */
+	filter: gray; /* IE6-9 */
+	-webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+  }
+  
+.grayscale:hover {
+	filter: none;
+	-webkit-filter: grayscale(0%);
   }
 
 
@@ -64,35 +221,270 @@ ul{
 
 
 
+  @import 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css';
+  @import 'https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css';
+  @import 'https://fonts.googleapis.com/css?family=Raleway:100,600';
+  @import 'https://fonts.googleapis.com/css?family=Open+Sans:300';
 
+  a:link,
+  a:active,
+  a:visited{
+	color:rgba(255,255,255,1);
+  }
+  
+  a:hover{
+	color:rgba(255,255,255,0.6);
+  }
+  
+  .gray {
+	color: #a5a5a5;
+  }
+  
+  .team{
+	margin:40px;
+  }
+  
+  .team-member {
+	margin: 15px 0;
+	padding: 0;
+  }
+  
+  .team-member figure {
+	position: relative;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+  }
+  
+  .team-member figure img {
+	min-width: 100%;
+	
+  }
+  
+  .team-member figcaption p {
+	font-size: 16px;
+  }
+  
+  .team-member figcaption ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+  }
+  
+  .team-member figcaption ul {
+	visibility: visible;
+	-webkit-transition: all 0.1s ease-in-out;
+	-moz-transition: all 0.1s ease-in-out;
+	-o-transition: all 0.1s ease-in-out;
+	transition: all 0.1s ease-in-out;
+  }
+  
+  .team-member figcaption ul li {
+	display: inline-block;
+	padding: 10px;
+  }
+  
+  .team-member h4 {
+	margin: 10px 0 0;
+	padding: 0;
+  }
+  
+  .team-member figcaption {
+	padding: 50px;
+	color: transparent;
+	background-color: transparent;
+	position: absolute;
+	z-index: 996;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 0;
+	overflow: hidden;
+	visibility: hidden;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+  }
 
+  
+  .team-member figure:hover figcaption {
+	visibility: visible;
+	color: #fff;
+	background: rgba(71, 69, 68, 0.9);
 
+	/* Primary color, can be changed via colors.css */
+	
+	height: 35%;
+	
+	transition: all 0.3s ease-in-out;
+  }
+  
+  .team-member figure:hover figcaption ul li a:hover {
+	color: rgba(49, 49, 49, .97);
 
+  }
+  
+  .team-member figure img {
+	-webkit-transform: scale(1) rotate(0) translateY(0);
+	-moz-transform: scale(1) rotate(0) translateY(0);
+	-o-transform: scale(1) rotate(0) translateY(0);
+	-ms-transform: scale(1) rotate(0) translateY(0);
+	transform: scale(1) rotate(0) translateY(0);
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+  }
+  
+  .team-member figure:hover img {
+	-webkit-transform: scale(1.1) rotate(1deg) translateY(12px);
+	-moz-transform: scale(1.1) rotate(1deg) translateY(12px);
+	-o-transform: scale(1.1) rotate(1deg) translateY(12px);
+	-ms-transform: scale(1.1) rotate(1deg) translateY(12px);
+	transform: scale(1.1) rotate(1deg) translateY(12px);
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+  }
 
+  #contact{
+    padding:10px 0 10px;
+  }
 
+  .contact-text{
+    margin:45px auto;
+  }
 
+  .mail-message-area{
+    width:100%;
+    padding:0 15px;
+  }
 
+  .mail-message{
+    width: 100%;
+    background:rgba(255,255,255, 0.8) !important;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    transition: all 0.7s;
+    margin:0 auto;
+    border-radius: 0;
+  }
 
+  .not-visible-message{
+    height:0px;
+    opacity: 0;
+  }
 
+  .visible-message{
+    height:auto;
+    opacity: 1;
+    margin:25px auto 0;
+  }
 
+/* Input Styles */
 
+  .form{
+    width: 100%;
+    padding: 15px;
+    background:#f8f8f8;
+    border:1px solid rgba(0, 0, 0, 0.075);
+    margin-bottom:25px;
+    color:#727272 !important;
+    font-size:13px;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+  }
 
+  .form:hover{
+    border:1px solid #8BC3A3;
+  }
 
+  .form:focus{
+    color: white;
+    outline: none;
+    border:1px solid #8BC3A3;
+  }
 
+  .textarea{
+    height: 200px;
+    max-height: 200px;
+    max-width: 100%;
+  }
+  
+/* Generic Button Styles */
 
-/* css for my  our features page
-.parent{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  .button{
+    padding:8px 12px;
+    background:#0A5175;
+    display: block;
+    width:120px;
+    margin:10px 0 0px 0;
+    border-radius:3px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    text-align:center;
+    font-size:0.8em;
+    box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+    -moz-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+    -webkit-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+  }
 
+  .button:hover{
+    background:#8BC3A3;
+    color:white;
+  }
+
+/* Send Button Styles */
+
+  .form-btn{
+    width:180px;
+    display: block;
+    height: auto;
+    padding:15px;
+    color:#fff;
+    background:#8BC3A3;
+    border:none;
+    border-radius:3px;
+    outline: none;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    margin:auto;
+    box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+    -moz-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+    -webkit-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+  }
+
+  .form-btn:hover{
+    background:#111;
+    color: white;
+    border:none;
+  }
+
+  .form-btn:active{
+    opacity: 0.9;
+  }
+center{
+  margin-top:330px;
 }
-.box{
-    flex: 1 1 150px;
-    flex: 0 1 150px;
-    margin: 5px;
-    height:90px;
-    width:190px;
-    background: green;
-   
-} */
+input {
+    position: relative;
+    z-index: 9999;
+}
+
+
+
+
+
+#footer{
+	margin-top: 5%;
+}
+
+
+
+
+  

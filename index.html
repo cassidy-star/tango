@@ -4,23 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./home.css">
-    <title>tango</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<!-- these are my fonts used for my buttons -->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+        
+<title>tango</title>
 </head>
+
+
+
+
+
 <body>
+  <!-- IM starting here blelow with the first black space above the navbar and adding all its icons within it  -->
+<div class="landing">
+<div class="div1 container-fluid">
+  <div class="row">
+    <!-- <div class="col"> <img id="phoneicon" src="images/telephone-symbol-button.png"/></div>
+    <div class="col"><p><i class="fab fa-accusoft" ></i></p></div>
+    <div class="col">chooose languages</div>
+    <div class="col"><div class="btn-group" role="group" aria-label="Basic example"><i class="fa fa-facebook-f fa-2x"></i>
+      <i class="fa fa-dribbble fa-2x"></i>
+      <i class="fa fa-twitter fa-2x"></i> -->
+    </div>
+  </div>
 
+ 
+  <!-- This is where im inserting my navbar  with the fixed effect -->
 
-
-
-<div class="div1">
-  <i class="fad fa-phone-square-alt"></i>
-  <i class="fas fa-envelope-square"></i>
-  <i class="fab fa-facebook-f"></i>
-  <i class="fab fa-dribbble"></i>
-  <i class="fab fa-twitter"></i>
-</div>
 <div class="fixedcontainer">
     <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">Navbar</a>
@@ -52,97 +67,389 @@
       </nav>
     </div>
 
+   <!-- After my navbar im adding the parallax for my page  -->
+    <div class="parallax"> 
+<!-- Here i have my two headings and my button all on my left hand side  -->
 
+<div class="headings">
+       <h1 class="firstheading">Tango Template is </h1>
+      <h2 class="secheading">The Best Solution</h2>
+      <p>WE are a creative agency. We build awesome things. We are crazy coders</p> 
+      <p>and creative designers. Be ready for more ideas </p>
+     
+       <button type="button" class="btn btn-primary btn-lg" id="learnbtn">Learn More</button>
+<!-- Then im adding my  phone image which will appear on my right  -->
+      <img  class="phone" src="images/phone.png" />
+<!-- Now im adding my form which will appear above my phone on the left hand side  -->
+          <form class="form" id="form1">
+            
+            <p class="name">
+              <input name="name" type="text" placeholder="Your Name" id="name" />
+            </p>
+            
+            <p class="email">
+              <input name="email" type="text"  placeholder="Email Address" />
+            </p>
+            
+            <p class="text">
+              <textarea name="text" placeholder="Your Message"></textarea>
+            </p>
+            
+            
+            <div class="submit">
+              <input type="submit" value="Send Message" id="sendbtn"/>
+              <div class="ease"></div>
+            </div>
+          </form>
+          <!-- This is the closing tag for my parallax  -->
+        </div>
    
-    <div class="parallax"></div>
-
-<!-- <div style="height:1000px;background-color:gray;font-size:36px">
-Scroll Up and Down this page to see the parallax scrolling effect.
-This div is just here to enable scrolling.
-Tip: Try to remove the background-attachment property to remove the scrolling effect.
-</div> -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <!-- <div class="parent">
-<div="row">
-    <div class="box">
-box1
-    </div>
-
-    <div class="box">"
-     box 2   
-    </div>
-
-    <div class="box">
-        box 3
     </div>
 </div>
+<div class="carousel">
+  <img class="imgs" src="images/image1.png"/>
+  <img class="imgs" src="images/image2.png"/>
+  <img class="imgs" src="images/image3.png"/>
+  <img class="imgs" src="images/image4.png"/>
+</div>
 
-<div class="row">
-    <div class="box">
-     row 4
+<!-- beneath i will be having my second page grid -->
+<div class="features">
+  <h2 class="featuresheading">Our features</h2><br/>
+  <div class="line-mf"></div>
+  <p class="feature-paragraph">We're a close team of creative , deisgner & developers 
+    who work together to create beautiful, engaging</p> <p>digital experience</p>
+
+ <div class="container" id="featuresContainer">
+  <div class="row">
+    <div class="col-sm">
+      <img src="images/icon1 (1).png"/>
+      <h5>Made By Love</h5>
+      <p>We build awesome web templates with love for you. We are crazy 
+        coders and creative designers. We are a creative agency. </p>
+    </div>
+    <div class="col-sm">
+      <img src="images/icon2 (1).png"/>
+     <h5>24/7 Support</h5>
+     <p>Need to talk to human, whenever you need a help or want to talk
+        with us we will be here for you. Also we are open 24/7</p>
+    </div>
+    <div class="col-sm">
+      <img src="images/icon3 (1).png"/>
+     <h5>Retina Ready </h5>
+     <p>A beautiful product needs to be complemented with a great
+       branding.Our design team will help you create it
+     </p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm">
+      <img src="images/icon4.png"/>
+      <h5>Made By Love</h5>
+      <p>We build awesome web templates with love for you. We are crazy 
+        coders and creative designers. We are a creative agency. </p>
+    </div>
+    <div class="col-sm">
+      <img src="images/icon5.png"/>
+     <h5>24/7 Support</h5>
+     <p>Need to talk to human, whenever you need a help or want to talk
+        with us we will be here for you. Also we are open 24/7</p>
+    </div>
+    <div class="col-sm">
+      <img src="images/icon6.png"/>
+     <h5>Retina Ready </h5>
+     <p>A beautiful product needs to be complemented with a great
+       branding.Our design team will help you create it
+     </p>
+    </div>
+  </div>
+
+</div>
+</div>
+
+<div class="what-we-do">
+
+  <div class="we-do-headings">
+    <h2>What We do</h2>
+    <div class="line-mf"></div><br/>
+    <p class="we-do-paragraph">We're an agency born out of passion to make great products.</p> 
+    <p class="we-do-paragraph">We help companies and startups 
+      over the world materialize their ideas into great projects </p>
+    </div>
+    <img class="computer" src="images/imac.png"/>
+
+    <div class="modern-dev">
+
+      <div class="container-fluid" id="wedo-container">
+        <div class="row">
+          <div class="col-sm-3">
+            <img class="wedo-icon"src="images/icon1.png"/>
+            <h5 class="we-do-h5">Modern Design</h5>
+            <p>We help build products from idea to launch
+              we're experts at web & modbile designand branding.
+            </p>
+          </div>
+          <div class="col-sm">
+            <img  class="wedo-icon" src="images/icon2.png" /><h5 class="we-do-h5">Modern Design</h5>
+            <p>We help build products from idea to launch
+              we're experts at web & modbile designand branding.
+            </p>
+            
+          </div>
+          <div class="col-sm">
+            <img class="wedo-icon" src="images/icon3.png"/>
+            <h5 class="we-do-h5">Modern Design </h5<p>We help build products from idea to launch</p>
+              we're experts at web & modbile designand branding.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <div class="box">
-      row 5  
+</div>
+
+
+
+<!-- beneathe is the code for my our work page -->
+<div class="ourwork">
+
+<div class="works-heading">
+  <h2>Our Works</h2>
+  <div class="line-mf"></div><br/>
+  <p>We're a close team of creatives, designers &developers who work together to create beautiful, engaging
+    digital experience.
+  </p>
+</div> <br/><br/>
+
+
+
+<div class="">
+<button type="button" class="btn btn-light">All</button>
+<button type="button" class="btn btn-light">Branding</button>
+<button type="button" class="btn btn-light">Web Design</button>
+<button type="button" class="btn btn-light">Print Design</button>
+<button type="button" class="btn btn-light">Photography</button>
+</div>
+
+<br/><br/><br/>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+     <img src="images/1.jpg" width="95%">
+    </div>
+    <div class="col-sm">
+      <img src="images/2.jpg" width="95%">
+    </div>
+    <div class="col-sm">
+      <img src="images/3.jpg"width="95%">
+    </div>
+  </div>
+  <br/><br/>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+     <img src="images/4.jpg" width="95%">
+    </div>
+    <div class="col-sm">
+      <img src="images/5.jpg" width="95%">
+    </div>
+    <div class="col-sm">
+      <img src="images/6.jpg"width="95%">
+    </div>
+  </div>
+  
+</div>
+
+<br/><br/>
+<div class="video">
+
+</div>
+
+<div class="team">
+
+  <div class="team-heading">
+    <h2>Our Great Team</h2>
+    <div class="line-mf"></div><br/>
+    <p class="team-paragraph">We're an agency born out of a passion to make great products. </p>
+    <p class="team-paragraph">We help companies and startups from all over the world
+    materiealize their ideas into great projects.
+  </p>
+  </div>
+
+
+<!-- This is my grayscale team container -->
+<div class="container" id="team-container">
+  <div class="row">
+
+    <div class="col-md-4">
+      <div class="team-member">
+        <figure>
+          <img  class="grayscale" src="images/team1.png" alt="" class="img-responsive">
+          <figcaption>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae asperiores mollitia.</p>
+            <ul>
+              <li><a href=""><i class="fa fa-facebook fa-2x"></i></a></li>
+              <li><a href=""><i class="fa fa-twitter fa-2x"></i></a></li>
+              <li><a href=""><i class="fa fa-linkedin fa-2x"></i></a></li>
+            </ul>
+          </figcaption>
+        </figure>
+       
+      </div><!-- /.team-member-->
+    </div><!-- /.col-md-4 -->
+
+    <div class="col-md-4">
+      <div class="team-member">
+        <figure>
+          <img class="grayscale" src="images/team2.png" alt="" class="img-responsive">
+          <figcaption>
+            <p>Neque minima ea, a praesentium saepe nihil maxime quod esse numquam explicabo eligendi.</p>
+            <ul>
+              <li><a href=""><i class="fa fa-facebook fa-2x"></i></a></li>
+              <li><a href=""><i class="fa fa-twitter fa-2x"></i></a></li>
+              <li><a href=""><i class="fa fa-linkedin fa-2x"></i></a></li>
+            </ul>
+          </figcaption>
+        </figure>
+       
+      </div><!-- /.team-member-->
+    </div><!-- /.col-md-4 -->
+
+    <div class="col-md-4">
+      <div class="team-member">
+        <figure>
+          <img  class="grayscale" src="images/team3.png" alt="" class="img-responsive">
+          <figcaption>
+            <p>Temporibus dolor, quisquam consectetur molestias, veniam voluptatum. Beatae alias omnis totam.</p>
+            <ul>
+              <li><a href=""><i class="fa fa-facebook fa-2x"></i></a></li>
+              <li><a href=""><i class="fa fa-twitter fa-2x"></i></a></li>
+              <li><a href=""><i class="fa fa-linkedin fa-2x"></i></a></li>
+            </ul>
+          </figcaption>
+        </figure>
+        
+      </div><!-- /.team-member-->
+    </div><!-- /.col-md-4 -->
+
+
+  </div><!-- /.row -->
+
+
+
+
+</div>
+
+
+
+<div class="contact">
+
+
+  <div class="contact-headings">
+    <div class="contactus">
+      <h2>Contact Us</h2>
+      <div class="line-mf"></div><br/>
+    </div>
+    <div class="contact-paragraph">
+      <p>Want to say hello? Want to know more about us? Give us a call or drop us an email and we will get back</p>
+      <p>to you as soon as we can</p>
     </div>
 
-    <div class="box">
-        row 6
-    </div> -->
-</div> 
+  </div>
+
+  <div class="inner contact">
+    <!-- Form Area -->
+    <div class="contact-form">
+        <!-- Form -->
+        <form id="contact-us" method="post" action="#">
+            <!-- Left Inputs -->
+            <div class="col-xs-6 wow animated slideInLeft" data-wow-delay=".5s">
+                <!-- Name -->
+                <input type="text" name="name" id="name" required="required" class="form" placeholder="Name" />
+                <!-- Email -->
+                <input type="email" name="mail" id="mail" required="required" class="form" placeholder="Email" />
+                <!-- Subject -->
+                <input type="text" name="subject" id="subject" required="required" class="form" placeholder="Subject" />
+            </div><!-- End Left Inputs -->
+            <!-- Right Inputs -->
+            <div class="col-xs-6 wow animated slideInRight" data-wow-delay=".5s">
+                <!-- Message -->
+                <textarea name="message" id="message" class="form textarea"  placeholder="Message"></textarea>
+            </div><!-- End Right Inputs -->
+            <!-- Bottom Submit -->
+            <div class="relative fullwidth col-xs-12">
+                <!-- Send Button -->
+                <button type="submit" id="submit" name="submit" class="form-btn semibold">Send Message</button> 
+            </div><!-- End Bottom Submit -->
+            <!-- Clear -->
+            <div class="clear"></div>
+        </form>
+
+        <!-- Your Mail Message -->
+        <div class="mail-message-area">
+            <!-- Message -->
+            <div class="alert gray-bg mail-message not-visible-message">
+                <strong>Thank You !</strong> Your email has been delivered.
+            </div>
+        </div>
+
+    </div><!-- End Contact Form Area -->
+</div><!-- End Inner -->
 
 
 
 
-  </div>  
+
+
+
+</div>
 
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container" id="footer">
+  <div class="row vdivide">
+    <div class="col-sm-4 text-center"><h4>Physical Address</h4><br/><p> Units 9, Athlone Industrial Park,</p><p>
+18 Maslamoney Rd, Athlone,</p><p> Cape Town</p><p>7764</p><p>South Africa</p></div>
+    <div class="col-sm-4 text-center"><h4>General Information</h4><br/><p>Nouveau Kitchens Pty Ltd<p/><p>Cell/Watsapp: 078 951 8170</p>E-mail: info@nouveaukitchens.co.za</div>
+    <div class="col-sm-4 text-center"><h4>Find Us On</h4>
+    <div class="icons"><br/>
+
+              <a href="https://www.facebook.com/Nouveau-Kitchens-Pty-Ltd-102028914708562/" target="_blank"><i class="fa fa-facebook fa-3x" id="icon"></i></a> &nbsp;
+</div>
+</div>
+</div>
+</div>
+<hr>
+
+
+
+
+
+
+</div>
+<!-- Beneath is the scripts for my bootsrap code/ cdn -->
       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
