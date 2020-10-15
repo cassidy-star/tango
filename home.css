@@ -7,6 +7,9 @@ h2{
 p {
 	font-size: 18px;
 }
+h4{
+	font-size:23px;
+}
 .landing
 {
 	background-color: black;
@@ -476,12 +479,14 @@ input {
     z-index: 9999;
 }
 
+.contact{
+	margin-bottom: 10px;
+}
 
 
 
-
-#footer{
-	margin-top: 5%;
+#footer-row{
+	padding-top: 50px;
 }
 
 
